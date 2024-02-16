@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Le Cinema de Balthazar</title>
+        <link href="search.css" rel="stylesheet"/>
+        <link rel="icon" href="../Media/Logo/logoCinema2.png">
+    </head>
+    <body>
+        <nav class="topnav">
+            <a class="active" href="index.html"> Accueil </a>
+            <a href="search.html"> Rechercher un film </a>
+            <section  id="nav">
+                <button class="sso" id="connection"> Se connecter </button>
+            </section>
+        </nav>
+        <section class="input">
+            <label for="searchbar"></label>
+            <input type="search" id="searchbar" placeholder="Search a movie" name="q"/>
+        </section>
+        <h2>Résultats de votre recherche :</h2>
+        <section id="movie-list"></section>
+        <script src="search.js"></script>
+        <script src="sso.js"></script>
+    </body>
+</html>

@@ -1,0 +1,92 @@
+html {
+    padding-top: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+.topnav {
+    background-color: #f3ac50;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav a:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #E8A941;
+    color: black;
+    height: 16px;
+    border-style: solid;
+}
+
+#nav {
+    float: right;
+    margin-right: 2%;
+}
+
+.sso {
+    background-color: white;
+    color: black;
+    height: 20px;
+    border-style: solid;
+}
+
+.accueil {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#text {
+    color: #E8A941;
+    padding-top: 2rem;
+    text-align: center;
+
+}
+
+#tendance {
+    color: #E8A941;
+    background-color: #262626;
+    text-align: center;
+    padding: 1%;
+}
+
+.logo {
+    margin: auto;
+    height: 350px;
+    width: 350px;
+}
+
+#movie-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #262626;
+    color: #E8A941;
+}
+
+#plus {
+    background-color: #f3ac50;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+}
